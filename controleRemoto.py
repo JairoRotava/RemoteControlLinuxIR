@@ -1,12 +1,4 @@
-#testado com ubuntu 16 e 18. Funciona com python 2 e 3
-#instalar i pip: sudo apt install python-pip
-#instalar o pyserial: pip install pyserial
-#liberar porta serial para acesso user (precisa reiniciar apos): sudo usermod -a -G dialout $USER
-#chamar no startup assim: gnome-terminal -- /usr/bin/python /home/tv/controleRemoto.py
-#instalar o xdotool: sudo apt install xdotool
-# usar extensao streamkeys no chrome
-
-#Controle remoto panasonic
+# Recepção de control remoto
 
 import time
 import serial 
