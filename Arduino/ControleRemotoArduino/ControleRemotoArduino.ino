@@ -8,9 +8,15 @@
 
 #include <IRremote.h>
 
+//Sensor TOP 4838
+// Pin1 = signal; Pin2 = GND; Pin3= VCC
 int RECV_PIN = 11;
-int RECV_VCC_PIN = 13;
-int RECV_GND_PIN = 12;
+//int RECV_GND_PIN = 12;
+//int RECV_VCC_PIN = 13;
+int RECV_GND_PIN = 10;
+int RECV_VCC_PIN = 9;
+
+
 
 IRrecv irrecv(RECV_PIN);
 
